@@ -3,7 +3,7 @@ using namespace std;
 
 class ASCII
 {
-    char ch;
+    char ch; int n;
     public:
     void input()
     {
@@ -12,8 +12,10 @@ class ASCII
     }
     void output()
     {
-        //using typecasting
-        cout<<"ASCII Value of"<<ch<<" is "<<(int)ch;
+        n = ch;
+        cout<<n;
+        //w/o using typecasting
+        //cout<<"ASCII Value of"<<ch<<" is "<<(int)ch;
     }
 
 };
