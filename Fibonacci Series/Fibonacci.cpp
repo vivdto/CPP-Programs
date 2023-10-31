@@ -10,12 +10,12 @@ using namespace std;
         x=0;
         y=1;
         z=0;
-                while (z<num)
+                while (z<num) // condition
             {
                 x = y;
                 y = z;
                 z = x + y;
-                cout<< z;
+                cout<< z; // the fibbonacci series. 
             
             }
     
